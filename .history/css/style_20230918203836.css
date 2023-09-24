@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 80px;
+  font-family: "Epilogue", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+  border: 1px solid red;
+}
+
+.header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 1.6rem;
+  color: #696969;
+  border: 1px solid blue;
+}
+
+.nav {
+  display: flex;
+  width: 377px;
+  height: 21px;
+  align-items: center;
+  gap: 2.3rem;
+  list-style-type: none;
+}
+
+.features,
+.company {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  align-items: center;
+  font-size: 14px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  align-items: center;
+  font-size: 14px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-items {
+  width: 1210px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign__options {
+  width: 184px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  background-color: transparent;
+  border: none;
+  color: hsl(0, 0%, 41%);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  text-decoration: none;
+}
+
+.login:hover {
+  color: black;
+}
+
+.register {
+  transition: all ease-in-out 0.3s;
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+  text-decoration: none;
+  padding: 0.5rem 1.35rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.register:hover {
+  border-color: hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 41%);
+}

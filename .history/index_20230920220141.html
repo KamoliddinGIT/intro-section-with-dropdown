@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <div class="nav-items">
+          <ul class="nav">
+            <li>
+              <button class="features">
+                Features
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow-1"
+                />
+              </button>
+              <ul class="toggle__1" style="display: none">
+                <li>
+                  <img src="./images/icon-todo.svg" alt="icon" /> Todo List
+                </li>
+                <li>
+                  <img src="./images/icon-calendar.svg" alt="icon" /> Calendar
+                </li>
+                <li>
+                  <img src="./images/icon-reminders.svg" alt="icon" /> Reminders
+                </li>
+                <li>
+                  <img src="./images/icon-planning.svg" alt="icon" /> Planning
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button class="company">
+                Company
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow-2"
+                />
+              </button>
+              <ul class="toggle__2" style="display: none">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+          <div class="sign__options">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="register">Register</a>
+          </div>
+        </div>
+        <div class="hamburgers" onclick="burger()">
+          <div class="burger__1" id="b1"></div>
+          <div class="burger__1" id="b2"></div>
+          <div class="burger__1" id="b3"></div>
+        </div>
+        <nav class="nav-menu">
+          <ul id="nav">
+            <li>
+              <button id="features">
+                Features
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow-1"
+                />
+              </button>
+              <ul class="toggle__1" style="display: none">
+                <li>
+                  <img src="./images/icon-todo.svg" alt="icon" /> Todo List
+                </li>
+                <li>
+                  <img src="./images/icon-calendar.svg" alt="icon" /> Calendar
+                </li>
+                <li>
+                  <img src="./images/icon-reminders.svg" alt="icon" /> Reminders
+                </li>
+                <li>
+                  <img src="./images/icon-planning.svg" alt="icon" /> Planning
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button class="company">
+                Company
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow-2"
+                />
+              </button>
+              <ul class="toggle__2" style="display: none">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

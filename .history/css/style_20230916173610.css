@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+  border: 1px solid red;
+}
+
+.header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 1.6rem;
+  color: #696969;
+  border: 1px solid blue;
+}

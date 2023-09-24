@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  font-family: "Epilogue", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+}
+
+.login {
+  width: 96px;
+  height: 30px;
+}
+
+.header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 1.6rem;
+  color: #696969;
+}
+
+.nav {
+  display: flex;
+  width: 377px;
+  height: 21px;
+  align-items: center;
+  gap: 2.3rem;
+  list-style-type: none;
+}
+
+.features,
+.company {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  align-items: center;
+  font-size: 14px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.toggle__1 {
+  position: absolute;
+  top: 4rem;
+  width: 133px;
+  height: 148px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
+  z-index: 1;
+}
+
+.toggle__1 li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+  align-items: center;
+  font-size: 14px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-items {
+  width: 1210px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign__options {
+  width: 184px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  background-color: transparent;
+  border: none;
+  color: hsl(0, 0%, 41%);
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  text-decoration: none;
+}
+
+.login:hover {
+  color: black;
+}
+
+.register {
+  transition: all ease-in-out 0.3s;
+  background-color: transparent;
+  border: 2px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+  text-decoration: none;
+  padding: 0.5rem 1.35rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.register:hover {
+  border-color: hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 41%);
+}
+
+.features:hover {
+  color: black;
+}
+
+.company:hover {
+  color: black;
+}
+
+.toggle__1 li:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.toggle__2 li:hover {
+  cursor: pointer;
+  color: black;
+}
+
+ul li:hover {
+  color: black;
+}
+
+.toggle__2 {
+  width: 100px;
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  border-radius: 10px;
+  position: absolute;
+  background-color: white;
+  padding: 1rem;
+  top: 4rem;
+  box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: -2px 10px 24px -11px rgba(0, 0, 0, 0.62);
+  z-index: 1;
+}
+
+.hamburgers {
+  position: absolute;
+  top: -25px;
+  right: -5px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+  margin-top: 29px;
+}
+.hamburgers:hover {
+  cursor: pointer;
+}
+.burger__1:nth-child(1) {
+  width: 40px;
+  height: 4px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 5px;
+  background-color: #000;
+}
+.burger__1:nth-child(3) {
+  width: 40px;
+  height: 4px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 5px;
+  background-color: #000;
+}
+
+#b2 {
+  width: 40px;
+  height: 4px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-top: 5px;
+  background-color: #000;
+}
+
+.nav-menu {
+  width: 633px;
+  height: 598px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: black;
+  left: 40%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  gap: 2rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .nav-items {
+    display: none;
+  }
+  .hamburgers {
+    display: flex;
+  }
+}
